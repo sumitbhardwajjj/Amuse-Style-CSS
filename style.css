@@ -3,7 +3,7 @@
  Theme URI:    https://generatepress.com/
  Description:  Child theme for GeneratePress
  Author:       Ramesh
- Author URI:   https://amuselabs.com/
+ Author URI:   https://amuselabs.com/ 
  Template:     generatepress
  Version:      1.0.0
  Text Domain:  generatepress-child
@@ -189,7 +189,7 @@ h1 {
 }
 
 h2 {
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 700 !important;
 	padding-bottom: 0px !important;
     margin-bottom: 32px !important;
@@ -1066,6 +1066,10 @@ h3, h4 {
   .footer-navigation ul li a:hover {
     text-decoration: underline !important;
     color: #0067c7;
+  }
+
+  #menu-item-4774{
+    margin-top: 4px !important;
   }
   
   /* Footer general */
@@ -2063,17 +2067,17 @@ h3, h4 {
     .mega-menu-link {
       margin-top: 0 !important;
     }
-  
-    .primary-button-mainnav {
-      border-width: 0 !important;
-      border-radius: 0 !important;
-      border-color: var(--color-white) !important;
-      padding: 0 !important;
-      margin-left: 0 !important;
-      padding-left: 20px !important;
-      width: 160px !important;
-      text-align: center !important;
-    }
+.primary-button-mainnav {
+  border-width: 0 !important;
+  border-radius: 0 !important;
+  border-color: var(--color-white) !important;
+  margin-left: 0 !important;
+  padding: 0px 12px 0px 8px !important;
+  width: fit-content !important;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+}
   }
   
   /* --- 13i. Max-width: 480px --- */
